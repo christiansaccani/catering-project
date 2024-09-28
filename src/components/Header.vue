@@ -43,6 +43,7 @@ const items = ref([
   color: black;
   font-weight: 600;
   font-size: 1.5rem;
+  text-transform: lowercase;
 }
 
 .v-list {
@@ -52,5 +53,9 @@ const items = ref([
   .v-list-item-title {
     font-weight: 600;
   }
+}
+
+.v-container {
+  padding: 0 5%;
 }
 </style>
