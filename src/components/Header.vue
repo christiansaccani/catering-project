@@ -36,7 +36,7 @@ const items = ref([
 
 <style lang="scss" scoped>
 .v-app-bar {
-  background-color: whitesmoke !important;
+  background-color: #eae8d8 !important;
 }
 
 .v-btn {
@@ -47,7 +47,7 @@ const items = ref([
 }
 
 .v-list {
-  background-color: whitesmoke !important;
+  background-color: #eae8d8 !important;
   color: black;
 
   .v-list-item-title {

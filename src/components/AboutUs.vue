@@ -3,7 +3,7 @@
       <div class="content">
         <h3>Funny Catering</h3>
         <p>
-            Trasformiamo ogni evento in un'esperienza straordinaria, curando ogni dettaglio con passione e offrendovi un servizio di Catering esclusivo.        </p>
+          Coltiviamo con cura e professionalità ogni dettaglio per rendere unici i vostri eventi. Negli anni abbiamo sempre risposto ai nostri clienti con le migliori soluzioni di Catering e Banqueting, garantendo un servizio impeccabile con al centro competenza e disponibilità. Dal menù alla scelta della location, vi accompagniamo ad ogni passo.        </p>
       </div>
     </div>
   </template>
@@ -14,7 +14,11 @@
   <style lang="scss" scoped>
   .about-us {
     background-color: #f7e6ca;
-    padding: 0 1rem 2rem;
+    padding: 1.5rem 1rem;
+
+    @media (min-width: 1200px) {
+        padding: 5rem 2rem;
+    }
   
     .content {
       max-width: 1400px;
@@ -25,20 +29,26 @@
       h3 {
         margin-bottom: 1rem;
         color: black;
-        font-family: 'Georgia', serif;
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         font-weight: bold;
         text-transform: uppercase;
+
+        @media (min-width: 1200px) {
+          font-size: 2rem;
+        }
       }
   
       p {
         color: black;
-        font-family: 'Georgia', serif;
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         line-height: 1.6;
         margin: 0 auto;
-        font-style: italic;
-        max-width: 1100px;
+        max-width: 1125px;
+        
+        @media (min-width: 1200px) {
+            line-height: 3.5rem;
+            font-size: 1.5rem;
+        }
       }
     }
   }
