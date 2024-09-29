@@ -38,6 +38,7 @@
         line-height: 1.6;
         margin: 0 auto;
         font-style: italic;
+        max-width: 1100px;
       }
     }
   }

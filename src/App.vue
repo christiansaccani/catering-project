@@ -2,6 +2,7 @@
   import Header from './components/Header.vue'
   import Jumbo from './components/Jumbo.vue'
   import AboutUs from './components/AboutUs.vue'
+  import Carousel from './components/Carousel.vue'
 </script>
 
 <template>
@@ -9,6 +10,7 @@
     <Header />
     <Jumbo />
     <AboutUs />
+    <Carousel />
     <v-main>
       <router-view />
     </v-main>
