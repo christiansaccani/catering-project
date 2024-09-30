@@ -3,7 +3,8 @@
       <div class="content">
         <h3>Funny Catering</h3>
         <p>
-          Coltiviamo con cura e professionalità ogni dettaglio per rendere unici i vostri eventi. Negli anni abbiamo sempre risposto ai nostri clienti con le migliori soluzioni di Catering e Banqueting, garantendo un servizio impeccabile con al centro competenza e disponibilità. Dal menù alla scelta della location, vi accompagniamo ad ogni passo.        </p>
+          Coltiviamo con cura e professionalità ogni dettaglio per rendere unici i vostri eventi. Negli anni abbiamo sempre risposto ai nostri clienti con le migliori soluzioni di Catering e Banqueting, garantendo un servizio impeccabile con al centro competenza e disponibilità. Dal menù alla scelta della location, vi accompagniamo ad ogni passo.
+        </p>
       </div>
     </div>
   </template>
@@ -41,6 +42,7 @@
       p {
         color: black;
         font-size: 1.1rem;
+        font-weight: 500;
         line-height: 1.6;
         margin: 0 auto;
         max-width: 1125px;

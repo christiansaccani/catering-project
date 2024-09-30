@@ -11,8 +11,10 @@
   <v-app>
     <Header />
     <Jumbo />
-    <AboutUs />
-    <Carousel />
+    <section id="about">
+      <AboutUs />
+      <Carousel />
+    </section>
     <Packages />
     <Footer />
     <!-- <v-main>
@@ -22,13 +24,13 @@
 </template>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: 'Vollkorn', serif; /* Applica il font Vollkorn a tutto il progetto */
+  font-family: "Raleway", sans-serif;
 }
 </style>
 <!---------- Next Step ---------->

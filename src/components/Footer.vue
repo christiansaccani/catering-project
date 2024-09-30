@@ -1,4 +1,5 @@
 <template>
+  <section id="contacts">
     <div>
       <v-footer class="d-flex flex-column bg-teal text-black">
         <v-container class="text-center" max-width="1400">
@@ -57,10 +58,10 @@
             <v-col
               v-for="(link, index) in links"
               :key="index"
-              class="mx-2"
+              class="mx-2 my-1"
               style="padding: 0 1rem"
             >
-              {{ link }}
+              {{ link }}             
             </v-col>
           </v-row>
           <v-col>
@@ -69,7 +70,8 @@
         </v-container>
       </v-footer>
     </div>
-  </template>
+  </section>
+</template>
   
   <script>
   export default {

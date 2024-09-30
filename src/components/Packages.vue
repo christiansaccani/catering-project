@@ -1,4 +1,5 @@
 <template>
+  <section id="packages">
     <div class="bg-wrapper">
       <v-container class="general-bg">
         <h3>Cosa Vi proponiamo :</h3>
@@ -36,7 +37,8 @@
         </v-row>
       </v-container>
     </div>
-  </template>
+  </section>
+</template>
   
   <script>
   import weddingImage from '@/assets/packagesimg/package1.webp';

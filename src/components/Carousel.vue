@@ -5,7 +5,7 @@
               height="40vh"
               v-model="model"
               cycle
-              :interval="4000"
+              :interval="5000"
               hide-delimiter-background
               class="carousel"
           >
@@ -14,7 +14,7 @@
                   :key="i"
               >
                   <v-sheet height="100%" class="image-sheet">
-                      <div class="d-flex fill-height justify-center align-center">
+                      <div class="d-flex fill-height justify-center align-center zoom-animation">
                           <img :src="image" alt="Slide Image" class="carousel-image" />
                       </div>
                   </v-sheet>
@@ -157,6 +157,19 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.zoom-animation {
+    animation: zoom 5.5s linear;
+}
+
+@keyframes zoom {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.05);
+    }
 }
 
 </style>
