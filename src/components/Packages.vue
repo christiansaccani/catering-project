@@ -82,6 +82,7 @@
   .bg-wrapper {
     background-color: #f7e6ca;
     width: 100%;
+    padding: 4rem 0 4rem;
   }
   
   .general-bg {
@@ -97,7 +98,7 @@
   }
   
   .package-card {
-    background-color: #eae8d8;
+    background-color: #fff6e6;
     border-radius: 12px;
     display: flex;
     flex-direction: column;
@@ -141,7 +142,7 @@
     display: flex;
     align-items: center;
     border: 1px solid #5d5c5b;
-    background-color: #eae8d8;
+    background-color: #fff6e6;
     overflow: hidden;
   }
   
@@ -175,7 +176,7 @@
   }
   
   .button:hover .fa-bell-concierge {
-    color: #eae8d8;
+    color: #fff6e6;
   }
   
   .button:hover .button__text {

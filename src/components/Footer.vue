@@ -65,7 +65,7 @@
             </v-col>
           </v-row>
           <v-col>
-            <strong>© 2022 Funny Catering</strong>
+            <strong>© 2024 Catering Service</strong>
           </v-col>
         </v-container>
       </v-footer>
@@ -80,9 +80,9 @@
       email: '',
       message: '',
       links: [
-        'Via Circonvallazione 1, 42020 Quattro Castella (RE) - Italy',
-        'info@funnycatering.com',
-        '339 3643873',
+        'Awesome Street, 7, IT',
+        'info@cateringservice.com',
+        '+39 3339184756',
       ],
       icons: [
         'mdi-facebook',
@@ -99,12 +99,12 @@
   
   <style scoped>
   .bg-head {
-    background-color: #eae8d8;
+    background-color: #fff6e6;
     padding: .5rem 1rem;
   }
   .bg-teal {
-    background-color: #eae8d8 !important;
-    padding: 1rem 1rem;
+    background-color: #fff6e6 !important;
+    padding: 4rem 1rem 2rem;
   }
   .send {
     width: 15rem !important;

@@ -37,8 +37,7 @@ const items = ref([
 const appBarClass = ref('default-color');
 
 const handleScroll = () => {
-  if (window.innerWidth > 1200 && window.scrollY > 634 && 1083 > window.scrollY || window.innerWidth > 1200 && window.scrollY > 1531 && 1988.59 > window.scrollY ||
-  window.innerWidth <= 1200 && window.scrollY > 961.2 && 2142.2 > window.scrollY
+  if (window.innerWidth > 1200 && window.scrollY > 692.73 && 1236.73 > window.scrollY || window.innerWidth > 1200 && window.scrollY > 2101.53 && 2800.23 > window.scrollY
   ) {
     appBarClass.value = 'scrolled-color';
   } else {
@@ -69,7 +68,7 @@ const scrollToSection = (sectionId) => {
 
 <style lang="scss" scoped>
 .default-color {
-  background-color: #eae8d8 !important;
+  background-color: #fff6e6 !important;
   transition: all .4s linear;
 }
 
@@ -91,7 +90,7 @@ const scrollToSection = (sectionId) => {
 }
 
 .v-list {
-  background-color: #eae8d8 !important;
+  background-color: #fff6e6 !important;
   color: black;
 
   .v-list-item-title {

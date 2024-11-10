@@ -1,7 +1,7 @@
 <template>
     <div class="about-us">
       <div class="content">
-        <h3>Funny Catering</h3>
+        <h3>Catering Service</h3>
         <p>
           Coltiviamo con cura e professionalità ogni dettaglio per rendere unici i vostri eventi. Negli anni abbiamo sempre risposto ai nostri clienti con le migliori soluzioni di Catering e Banqueting, garantendo un servizio impeccabile con al centro competenza e disponibilità. Dal menù alla scelta della location, vi accompagniamo ad ogni passo.
         </p>
@@ -26,6 +26,7 @@
       width: 100%;
       margin: 0 auto;
       text-align: center;
+      padding: 2rem 0 4rem;
   
       h3 {
         margin-bottom: 1rem;

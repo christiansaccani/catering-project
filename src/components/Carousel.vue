@@ -2,7 +2,7 @@
   <v-container fluid class="carousel-container">
       <div class="carousel-inner">
           <v-carousel
-              height="40vh"
+              height="70vh"
               v-model="model"
               cycle
               :interval="5000"
@@ -72,7 +72,7 @@ export default {
 
 <style lang="scss" scoped>
 .carousel-container {
-  background-color: #eae8d8;
+  background-color: #fff6e6;
   margin: 0 auto;
   padding: 2rem 1rem;
 
@@ -83,7 +83,7 @@ export default {
 
 .carousel-inner {
   max-width: 1300px;
-  margin: 0 auto;
+  margin: 2rem auto 4rem;
   padding: 0 1rem;
 
   @media (min-width: 960px) {
@@ -101,7 +101,7 @@ export default {
 }
 
 .image-sheet {
-  background-color: #eae8d8;
+  background-color: #fff6e6;
   height: 100%;
 }
 
@@ -135,7 +135,7 @@ export default {
   font-size: 1.5rem;
 
   @media (min-width: 960px) {
-      font-size: 2.5rem; /* Dimensioni più grandi per schermi più grandi */
+      font-size: 2.5rem;
       top: 50%
   }
 }

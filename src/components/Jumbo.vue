@@ -17,7 +17,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #eae8d8;
+    background-color: #fff6e6;
     width: 100%;
 
         .jumbo-container {
@@ -33,7 +33,7 @@
     .jumbo-image {
         width: 100%;
         height: auto;
-        max-height: 500px;
+        max-height: 600px;
         object-fit: cover;
         border-radius: 24px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
