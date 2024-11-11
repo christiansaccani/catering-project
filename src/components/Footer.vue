@@ -58,14 +58,15 @@
             <v-col
               v-for="(link, index) in links"
               :key="index"
-              class="mx-2 my-1"
+              class="mx-2 my-2"
               style="padding: 0 1rem"
             >
               {{ link }}             
             </v-col>
           </v-row>
-          <v-col>
-            <strong>© 2024 Catering Service</strong>
+          <v-col class="mt-2">
+            <strong>© 2024 Catering Service</strong><br>
+            <strong style="font-size: 12px;">Made by WebKong</strong>
           </v-col>
         </v-container>
       </v-footer>
