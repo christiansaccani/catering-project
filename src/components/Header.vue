@@ -2,24 +2,14 @@
   <v-app-bar :class="appBarClass" app>
     <v-container max-width="1400" class="d-flex justify-end align-center">
       <v-toolbar-title>
-        <v-img src="@/assets/logo.png" max-width="60"></v-img>
+        <v-img src="@/assets/logo.png" max-width="60" style="margin-right: .5rem;"></v-img>
       </v-toolbar-title>
-      <v-spacer></v-spacer>
       <v-btn class="d-none d-sm-flex" variant="text" @click="scrollToSection('about')">Chi siamo</v-btn>
       <v-btn class="d-none d-sm-flex" variant="text" @click="scrollToSection('packages')">Pacchetti</v-btn>
       <v-btn class="d-none d-sm-flex" variant="text" @click="scrollToSection('contacts')">Contatti</v-btn>
-      <v-menu class="d-sm-none" open-on-hover location="start">
-        <template v-slot:activator="{ props }">
-          <v-btn variant="text" v-bind="props" class="d-sm-none">
-            <i class="fa-solid fa-bars"></i>
-          </v-btn>
-        </template>
-        <v-list>
-          <v-list-item v-for="(item, index) in items" :key="index" @click="scrollToSection(item.target)">
-            <v-list-item-title>{{ item.title }}</v-list-item-title>
-          </v-list-item>
-        </v-list>
-      </v-menu>
+      <h1 class="d-sm-none" location="start">
+        Funny Catering
+      </h1>
     </v-container>
   </v-app-bar>
 </template>
@@ -27,12 +17,6 @@
 
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue';
-
-const items = ref([
-  { title: 'Chi siamo', target: 'about' },
-  { title: 'Pacchetti', target: 'packages' },
-  { title: 'Contatti', target: 'contacts' },
-]);
 
 const appBarClass = ref('default-color');
 
@@ -100,5 +84,10 @@ const scrollToSection = (sectionId) => {
 
 .v-container {
   padding: 0 5%;
+}
+
+h1 {
+  color: black;
+  font-weight: 800;
 }
 </style>
